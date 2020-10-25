@@ -1,0 +1,7 @@
+{"testCaseName":"Test Cases/TC01-Login Berhasil dengan Username dan Password yang Valid (Script Mode)","testCaseId":"Test Cases/TC01-Login Berhasil dengan Username dan Password yang Valid (Script Mode)"}
+{"testCaseName":"Test Cases/TC02-Gagal Login dengan Username dan Password InValid (Manual Mode)","testCaseId":"Test Cases/TC02-Gagal Login dengan Username dan Password InValid (Manual Mode)"}
+{"testCaseName":"Test Cases/TC03-Gagal Login dengan Username Valid Dan Password InValid (Script Mode)","testCaseId":"Test Cases/TC03-Gagal Login dengan Username Valid Dan Password InValid (Script Mode)"}
+{"testCaseName":"Test Cases/TC04-Gagal Login dengan Username Invalid Dan Password Valid (Script Mode)","testCaseId":"Test Cases/TC04-Gagal Login dengan Username Invalid Dan Password Valid (Script Mode)"}
+{"testCaseName":"Test Cases/TC05-Gagal Login dengan hanya menginputkan username saja (Script Mode)","testCaseId":"Test Cases/TC05-Gagal Login dengan hanya menginputkan username saja (Script Mode)"}
+{"testCaseName":"Test Cases/TC06-Gagal Login dengan hanya menginputkan Password saja (Script Mode)","testCaseId":"Test Cases/TC06-Gagal Login dengan hanya menginputkan Password saja (Script Mode)"}
+{"testCaseName":"Test Cases/TC07-Gagal Login dengan tidak menginput Username dan password (Script Mode)","testCaseId":"Test Cases/TC07-Gagal Login dengan tidak menginput Username dan password (Script Mode)"}

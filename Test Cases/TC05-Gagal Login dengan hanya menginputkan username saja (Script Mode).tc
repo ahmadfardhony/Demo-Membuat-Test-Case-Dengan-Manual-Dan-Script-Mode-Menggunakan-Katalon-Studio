@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05-Gagal Login dengan hanya menginputkan username saja (Script Mode)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9b395927-3de7-4c60-bf3b-ed1ea7c64183</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression Test" time="129.383" tests="7" failures="0" errors="0">
+   <testsuite name="Regression Test" tests="7" failures="0" errors="0" time="129.383" timestamp="2020-10-25 19:29:53" hostname="LENOVO - DESKTOP-4V7KC2B" id="Test Suites/Regression Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\LENOVO\\git\\Demo-Membuat-Test-Case-Dengan-Manual-Dan-Script-Mode-Menggunakan-Katalon-Studio\\Reports\\20201025_192946\\Regression Test\\20201025_192946"/>
+         <property name="logFiles" value="C:\\Users\\LENOVO\\git\\Demo-Membuat-Test-Case-Dengan-Manual-Dan-Script-Mode-Menggunakan-Katalon-Studio\\Reports\\20201025_192946\\Regression Test\\20201025_192946\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="LENOVO - DESKTOP-4V7KC2B"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.7.2.205"/>
+         <property name="browser" value="Chrome 86.0.4240.111"/>
+         <property name="hostAddress" value="192.168.1.21"/>
+         <property name="sessionId" value="40ea880b8dceb16a294b6cd334466a87"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC01-Login Berhasil dengan Username dan Password yang Valid (Script Mode)" time="28.374" classname="Test Cases/TC01-Login Berhasil dengan Username dan Password yang Valid (Script Mode)" status="PASSED">
+         <system-out><![CDATA[2020-10-25 19:29:54 - [TEST_CASE][PASSED] - Test Cases/TC01-Login Berhasil dengan Username dan Password yang Valid (Script Mode): Test Cases/TC01-Login Berhasil dengan Username dan Password yang Valid (Script Mode)
+
+2020-10-25 19:29:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-25 19:29:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-25 19:29:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-25 19:30:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-25 19:30:00 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/"): Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2020-10-25 19:30:07 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2020-10-25 19:30:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-10-25 19:30:08 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-25 19:30:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_LOGIN Panel_txtUsername"), "Admin"): Text 'Admin' is set on object 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2020-10-25 19:30:10 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2020-10-25 19:30:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_Username_txtPassword"), "admin123"): Text 'admin123' is set on object 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_Username_txtPassword'
+
+2020-10-25 19:30:11 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_Username_txtPassword'
+
+2020-10-25 19:30:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_Password_Submit")): Object: 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2020-10-25 19:30:17 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2020-10-25 19:30:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRM - Object/Page_OrangeHRM/a_Welcome Paul")): Object: 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/a_Welcome Paul' is clicked on
+
+2020-10-25 19:30:17 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/a_Welcome Paul' is clicked on
+
+2020-10-25 19:30:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRM - Object/Page_OrangeHRM/a_Logout")): Object: 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/a_Logout' is clicked on
+
+2020-10-25 19:30:19 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/a_Logout' is clicked on
+
+2020-10-25 19:30:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-10-25 19:30:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-25 19:30:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-25 19:30:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC02-Gagal Login dengan Username dan Password InValid (Manual Mode)" time="17.98" classname="Test Cases/TC02-Gagal Login dengan Username dan Password InValid (Manual Mode)" status="PASSED">
+         <system-out><![CDATA[2020-10-25 19:30:22 - [TEST_CASE][PASSED] - Test Cases/TC02-Gagal Login dengan Username dan Password InValid (Manual Mode): Test Cases/TC02-Gagal Login dengan Username dan Password InValid (Manual Mode)
+
+2020-10-25 19:30:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-25 19:30:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-25 19:30:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-25 19:30:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-25 19:30:25 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/"): Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2020-10-25 19:30:33 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2020-10-25 19:30:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-10-25 19:30:33 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-25 19:30:33 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM - Object/Page_OrangeHRM/input_LOGIN Panel_txtUsername"), "User"): Text 'User' is set on object 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2020-10-25 19:30:34 - [MESSAGE][PASSED] - Text 'User' is set on object 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2020-10-25 19:30:34 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM - Object/Page_OrangeHRM/input_Username_txtPassword"), "User123"): Text 'User123' is set on object 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_Username_txtPassword'
+
+2020-10-25 19:30:35 - [MESSAGE][PASSED] - Text 'User123' is set on object 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_Username_txtPassword'
+
+2020-10-25 19:30:35 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM - Object/Page_OrangeHRM/input_Password_Submit")): Object: 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2020-10-25 19:30:37 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2020-10-25 19:30:37 - [TEST_STEP][PASSED] - verifyTextPresent("Invalid credentials", false): Text 'Invalid credentials' is present on page 
+
+2020-10-25 19:30:37 - [MESSAGE][PASSED] - Text 'Invalid credentials' is present on page 
+
+2020-10-25 19:30:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-10-25 19:30:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-25 19:30:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-25 19:30:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC03-Gagal Login dengan Username Valid Dan Password InValid (Script Mode)" time="16.214" classname="Test Cases/TC03-Gagal Login dengan Username Valid Dan Password InValid (Script Mode)" status="PASSED">
+         <system-out><![CDATA[2020-10-25 19:30:40 - [TEST_CASE][PASSED] - Test Cases/TC03-Gagal Login dengan Username Valid Dan Password InValid (Script Mode): Test Cases/TC03-Gagal Login dengan Username Valid Dan Password InValid (Script Mode)
+
+2020-10-25 19:30:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-25 19:30:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-25 19:30:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-25 19:30:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-25 19:30:43 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/"): Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2020-10-25 19:30:49 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2020-10-25 19:30:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-10-25 19:30:50 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-25 19:30:50 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM - Object/Page_OrangeHRM/input_LOGIN Panel_txtUsername"), "Admin"): Text 'Admin' is set on object 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2020-10-25 19:30:50 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2020-10-25 19:30:50 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM - Object/Page_OrangeHRM/input_Username_txtPassword"), "User123"): Text 'User123' is set on object 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_Username_txtPassword'
+
+2020-10-25 19:30:51 - [MESSAGE][PASSED] - Text 'User123' is set on object 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_Username_txtPassword'
+
+2020-10-25 19:30:51 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM - Object/Page_OrangeHRM/input_Password_Submit")): Object: 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2020-10-25 19:30:53 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2020-10-25 19:30:53 - [TEST_STEP][PASSED] - verifyTextPresent("Invalid credentials", false): Text 'Invalid credentials' is present on page 
+
+2020-10-25 19:30:53 - [MESSAGE][PASSED] - Text 'Invalid credentials' is present on page 
+
+2020-10-25 19:30:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-10-25 19:30:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-25 19:30:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-25 19:30:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC04-Gagal Login dengan Username Invalid Dan Password Valid (Script Mode)" time="16.61" classname="Test Cases/TC04-Gagal Login dengan Username Invalid Dan Password Valid (Script Mode)" status="PASSED">
+         <system-out><![CDATA[2020-10-25 19:30:57 - [TEST_CASE][PASSED] - Test Cases/TC04-Gagal Login dengan Username Invalid Dan Password Valid (Script Mode): Test Cases/TC04-Gagal Login dengan Username Invalid Dan Password Valid (Script Mode)
+
+2020-10-25 19:30:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-25 19:30:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-25 19:30:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-25 19:30:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-25 19:30:59 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/"): Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2020-10-25 19:31:05 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2020-10-25 19:31:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-10-25 19:31:06 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-25 19:31:06 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM - Object/Page_OrangeHRM/input_LOGIN Panel_txtUsername"), "User"): Text 'User' is set on object 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2020-10-25 19:31:07 - [MESSAGE][PASSED] - Text 'User' is set on object 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2020-10-25 19:31:07 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM - Object/Page_OrangeHRM/input_Username_txtPassword"), "admin123"): Text 'admin123' is set on object 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_Username_txtPassword'
+
+2020-10-25 19:31:08 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_Username_txtPassword'
+
+2020-10-25 19:31:08 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM - Object/Page_OrangeHRM/input_Password_Submit")): Object: 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2020-10-25 19:31:10 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2020-10-25 19:31:10 - [TEST_STEP][PASSED] - verifyTextPresent("Invalid credentials", false): Text 'Invalid credentials' is present on page 
+
+2020-10-25 19:31:10 - [MESSAGE][PASSED] - Text 'Invalid credentials' is present on page 
+
+2020-10-25 19:31:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-10-25 19:31:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-25 19:31:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-25 19:31:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC05-Gagal Login dengan hanya menginputkan username saja (Script Mode)" time="16.152" classname="Test Cases/TC05-Gagal Login dengan hanya menginputkan username saja (Script Mode)" status="PASSED">
+         <system-out><![CDATA[2020-10-25 19:31:13 - [TEST_CASE][PASSED] - Test Cases/TC05-Gagal Login dengan hanya menginputkan username saja (Script Mode): Test Cases/TC05-Gagal Login dengan hanya menginputkan username saja (Script Mode)
+
+2020-10-25 19:31:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-25 19:31:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-25 19:31:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-25 19:31:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-25 19:31:16 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/"): Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2020-10-25 19:31:23 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2020-10-25 19:31:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-10-25 19:31:23 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-25 19:31:23 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM - Object/Page_OrangeHRM/input_LOGIN Panel_txtUsername"), "Admin"): Text 'Admin' is set on object 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2020-10-25 19:31:24 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2020-10-25 19:31:24 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM - Object/Page_OrangeHRM/input_Username_txtPassword"), ""): Text '' is set on object 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_Username_txtPassword'
+
+2020-10-25 19:31:25 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_Username_txtPassword'
+
+2020-10-25 19:31:25 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM - Object/Page_OrangeHRM/input_Password_Submit")): Object: 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2020-10-25 19:31:25 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2020-10-25 19:31:25 - [TEST_STEP][PASSED] - verifyTextPresent("Password cannot be empty", false): Text 'Password cannot be empty' is present on page 
+
+2020-10-25 19:31:26 - [MESSAGE][PASSED] - Text 'Password cannot be empty' is present on page 
+
+2020-10-25 19:31:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-10-25 19:31:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-25 19:31:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-25 19:31:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC06-Gagal Login dengan hanya menginputkan Password saja (Script Mode)" time="16.803" classname="Test Cases/TC06-Gagal Login dengan hanya menginputkan Password saja (Script Mode)" status="PASSED">
+         <system-out><![CDATA[2020-10-25 19:31:29 - [TEST_CASE][PASSED] - Test Cases/TC06-Gagal Login dengan hanya menginputkan Password saja (Script Mode): Test Cases/TC06-Gagal Login dengan hanya menginputkan Password saja (Script Mode)
+
+2020-10-25 19:31:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-25 19:31:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-25 19:31:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-25 19:31:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-25 19:31:32 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/"): Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2020-10-25 19:31:40 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2020-10-25 19:31:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-10-25 19:31:40 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-25 19:31:40 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM - Object/Page_OrangeHRM/input_LOGIN Panel_txtUsername"), ""): Text '' is set on object 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2020-10-25 19:31:41 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2020-10-25 19:31:41 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM - Object/Page_OrangeHRM/input_Username_txtPassword"), "admin123"): Text 'admin123' is set on object 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_Username_txtPassword'
+
+2020-10-25 19:31:42 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_Username_txtPassword'
+
+2020-10-25 19:31:42 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM - Object/Page_OrangeHRM/input_Password_Submit")): Object: 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2020-10-25 19:31:43 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2020-10-25 19:31:43 - [TEST_STEP][PASSED] - verifyTextPresent("Username cannot be empty", false): Text 'Username cannot be empty' is present on page 
+
+2020-10-25 19:31:43 - [MESSAGE][PASSED] - Text 'Username cannot be empty' is present on page 
+
+2020-10-25 19:31:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-10-25 19:31:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-25 19:31:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-25 19:31:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC07-Gagal Login dengan tidak menginput Username dan password (Script Mode)" time="14.863" classname="Test Cases/TC07-Gagal Login dengan tidak menginput Username dan password (Script Mode)" status="PASSED">
+         <system-out><![CDATA[2020-10-25 19:31:46 - [TEST_CASE][PASSED] - Test Cases/TC07-Gagal Login dengan tidak menginput Username dan password (Script Mode): Test Cases/TC07-Gagal Login dengan tidak menginput Username dan password (Script Mode)
+
+2020-10-25 19:31:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-25 19:31:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-25 19:31:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-25 19:31:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-25 19:31:49 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/"): Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2020-10-25 19:31:55 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2020-10-25 19:31:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-10-25 19:31:55 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-25 19:31:55 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM - Object/Page_OrangeHRM/input_LOGIN Panel_txtUsername"), ""): Text '' is set on object 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2020-10-25 19:31:56 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2020-10-25 19:31:56 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM - Object/Page_OrangeHRM/input_Username_txtPassword"), ""): Text '' is set on object 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_Username_txtPassword'
+
+2020-10-25 19:31:57 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_Username_txtPassword'
+
+2020-10-25 19:31:57 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM - Object/Page_OrangeHRM/input_Password_Submit")): Object: 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2020-10-25 19:31:57 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM - Object/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2020-10-25 19:31:57 - [TEST_STEP][PASSED] - verifyTextPresent("Username cannot be empty", false): Text 'Username cannot be empty' is present on page 
+
+2020-10-25 19:31:58 - [MESSAGE][PASSED] - Text 'Username cannot be empty' is present on page 
+
+2020-10-25 19:31:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-10-25 19:32:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-25 19:32:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-25 19:32:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-10-25 19:29:53 - [TEST_SUITE][PASSED] - Regression Test: Test Cases/TC07-Gagal Login dengan tidak menginput Username dan password (Script Mode)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
